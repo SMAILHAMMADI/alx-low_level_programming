@@ -1,17 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description : false or true validation
+ * Description: Determines whether a randomly generated number is
+ *              positive, zero, or negative.
  *
+ * Return: 0 (Success)
  */
-/**
- *
- * return: 0 (success)
- *
- */
+
 int main(void)
 {
 int n;
