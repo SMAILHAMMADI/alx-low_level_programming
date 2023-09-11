@@ -14,9 +14,9 @@ int main(void)
 int digit = 0;
 while (digit <= 9)
 {
-putchar(digit + '0');  // Convert the digit to its character representation
+putchar(digit + '0');
 digit++;
 }
-putchar('\n');  // Print a newline character
+putchar('\n');
 return (0);
 }
