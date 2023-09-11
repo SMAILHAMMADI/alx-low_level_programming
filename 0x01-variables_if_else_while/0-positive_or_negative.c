@@ -4,9 +4,12 @@
 /**
  * main - entry point
  *
- * Description : false or true
+ * Description : false or true validation
  *
- * return 0
+ */
+/**
+ *
+ * return: 0 (success)
  *
  */
 int main(void)
