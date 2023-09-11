@@ -11,11 +11,16 @@
 
 int main(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+int digit;
+for (digit = 0; digit <= 9; digit++)
 {
-printf("%d", i);
+putchar(digit + '0');
+if (digit < 9)
+{
+putchar(',');
+putchar(' ');
 }
-printf("\n");
+}
+putchar('\n');
 return (0);
 }

@@ -11,11 +11,12 @@
 
 int main(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+int digit = 0;
+while (digit <= 9)
 {
-printf("%d", i);
+putchar(digit + '0');  // Convert the digit to its character representation
+digit++;
 }
-printf("\n");
+putchar('\n');  // Print a newline character
 return (0);
 }

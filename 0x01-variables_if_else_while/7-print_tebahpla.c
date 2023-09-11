@@ -11,11 +11,12 @@
 
 int main(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+char letter = 'z';
+while (letter >= 'a')
 {
-printf("%d", i);
+putchar(letter);
+letter--;
 }
-printf("\n");
-return (0);
+putchar('\n');
+return 0;
 }
