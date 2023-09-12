@@ -1,13 +1,8 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - Displays a string followed by a newline
- *
- * Description: This function takes a string as input and displays
- *              it character by character, followed by a newline.
- * Return: None
+ * print_alphabet - Displays the lowercase alphabet followed by a newline
  */
-
 void print_alphabet(void)
 {
 char letter = 'a';
@@ -20,11 +15,10 @@ putchar('\n');
 }
 
 /**
- * main - check the code
+ * main - Entry point of the program
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 print_alphabet();
