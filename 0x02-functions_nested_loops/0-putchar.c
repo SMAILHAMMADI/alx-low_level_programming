@@ -1,37 +1,36 @@
-#include <stdio.h>
-#include "main.h"
-
+#include <unistd.h>
+#include <main.h>
 /**
- * affichage - Displays a string followed by a newline
- * @t: The string to be displayed
+ * _putchar - Writes a character to the standard output
+ * @c: The character to be written
  *
- * Description: This function takes a string as input and displays
- *              it character by character, followed by a newline.
- * Return: None
+ * Return: On success, returns the character written as an unsigned char cast
+ * to an int (typically 0 to 255). On failure, returns -1.
  */
-
-void affichage(char t[])
+int _putchar(char c)
 {
-int i = 0;
-for (i = 0; t[i] != '\0'; i++)
-{
-putchar(t[i]);
-}
-putchar('\n');
+return write(1, &c, 1);
 }
 
 /**
  * main - Entry point of the program
  *
- * Description: Generate a random number, determine its last digit,
- *              and print a message based on the last digit.
+ * Description: This program prints "_putchar" followed by a new line
+ * using the custom _putchar function.
  *
- * Return: Always 0 (Success)
+ * Return: Always returns 0 to indicate success.
  */
-
 int main(void)
 {
-char a[] = "_putchar";
-affichage(a);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
 return (0);
 }
