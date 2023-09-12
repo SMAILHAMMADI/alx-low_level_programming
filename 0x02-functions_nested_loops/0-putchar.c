@@ -10,7 +10,8 @@
  * Return: Always 0 (Success)
  */
 
-void affichage(char t[]) {
+void affichage(char t[]) 
+{
 int i = 0;
 for (i = 0; t[i] != '\0'; i++) 
 {
@@ -18,7 +19,8 @@ putchar(t[i]);
 }
 putchar('\n');
 }
-int main(void) {
+int main(void) 
+{
 char a[] = "_putchar";
 affichage(a);
 return (0);
