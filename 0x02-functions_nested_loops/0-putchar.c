@@ -2,6 +2,14 @@
 #include "main.h"
 
 /**
+ * affichage - Displays a string followed by a newline
+ * @t: The string to be displayed
+ *
+ * Description: This function takes a string as input and displays
+ *              it character by character, followed by a newline.
+ * Return: None
+ */
+/**
  * main - Entry point
  *
  * Description: Generate a random number, determine its last digit,
