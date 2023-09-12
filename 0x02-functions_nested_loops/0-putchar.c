@@ -11,7 +11,8 @@
  */
 
 void affichage(char t[]) {
-for (int i = 0; t[i] != '\0'; i++) 
+int i = 0;
+for (i = 0; t[i] != '\0'; i++) 
 {
 putchar(t[i]);
 }
