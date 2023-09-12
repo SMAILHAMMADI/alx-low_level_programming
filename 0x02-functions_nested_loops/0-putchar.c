@@ -9,14 +9,6 @@
  *              it character by character, followed by a newline.
  * Return: None
  */
-/**
- * main - Entry point
- *
- * Description: Generate a random number, determine its last digit,
- *              and print a message based on the last digit.
- *
- * Return: Always 0 (Success)
- */
 
 void affichage(char t[])
 {
