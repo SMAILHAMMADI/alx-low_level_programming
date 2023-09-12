@@ -19,6 +19,16 @@ putchar(t[i]);
 }
 putchar('\n');
 }
+
+/**
+ * main - Entry point of the program
+ *
+ * Description: Generate a random number, determine its last digit,
+ *              and print a message based on the last digit.
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 char a[] = "_putchar";
