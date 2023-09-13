@@ -1,26 +1,28 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
- * print_alphabet - Displays the lowercase alphabet followed by a newline
+ * print_alphabet - Prints the lowercase alphabet followed by a new line.
  */
+
 void print_alphabet(void)
 {
 char letter = 'a';
 while (letter <= 'z')
 {
-putchar(letter);
+_putchar(letter);
 letter++;
 }
-putchar('\n');
+_putchar('\n');
 }
 
 /**
- * main - Entry point of the program
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-print_alphabet();
-return (0);
+    print_alphabet();
+    return (0);
 }
