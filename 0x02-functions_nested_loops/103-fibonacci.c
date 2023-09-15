@@ -5,11 +5,11 @@ long int sum = 0;
 long int a = 1, b = 2;
 while (a <= 4000000) 
 {
+long int next;
 if (a % 2 == 0) 
 {
 sum += a;
 }
-long int next;
 next = a + b;
 a = b;
 b = next;
