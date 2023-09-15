@@ -8,12 +8,12 @@
 
 int main(void)
 {
-int long a = 1;
-int long b = 2;
-int long next;
+long int a = 1;
+long int b = 2;
+long int next;
 int count = 0;
 printf("%ld, %ld", a, b);
-while (count < 93)
+while (count < 83)
 {
 next = a + b;
 printf(", %ld", next);
