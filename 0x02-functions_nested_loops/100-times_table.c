@@ -17,9 +17,9 @@ for (j = 0; j <= n; j++)
 {
 int result = i * j;
 if (j == 0)
-printf("%d", result);
+printf("%2d", result);
 else
-printf(",   %d", result);
+printf(",3%d", result);
 }
 printf("\n");
 }
