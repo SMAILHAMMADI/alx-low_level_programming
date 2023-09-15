@@ -11,7 +11,7 @@ int main(void)
 int long a = 1;
 int long b = 2;
 int long next;
-int count = 0;
+int count = 2;
 printf("%ld, %ld", a, b);
 while (count < 96)
 {
