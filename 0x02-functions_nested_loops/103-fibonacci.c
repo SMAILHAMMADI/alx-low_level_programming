@@ -9,7 +9,8 @@ if (a % 2 == 0)
 {
 sum += a;
 }
-long int next = a + b;
+long int next a , b , c;
+next = a + b;
 a = b;
 b = next;
 }
