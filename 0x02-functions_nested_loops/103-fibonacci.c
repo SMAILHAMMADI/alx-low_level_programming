@@ -9,7 +9,10 @@ if (a % 2 == 0)
 {
 sum += a;
 }
-long int next a , b , c;
+long int a;
+long int next;
+long int b;
+long int c;
 next = a + b;
 a = b;
 b = next;
