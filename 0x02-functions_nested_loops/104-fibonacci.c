@@ -11,9 +11,9 @@ int main(void)
 long int a = 1;
 long int b = 2;
 long int next;
-int count = 0;
+int count = 2;
 printf("%ld, %ld", a, b);
-while (count < 96)
+while (count < 98)
 {
 next = a + b;
 printf(", %ld", next);
