@@ -13,7 +13,7 @@ long int b = 2;
 long int next;
 int count = 0;
 printf("%ld, %ld", a, b);
-while (count < 83)
+while (count < 96)
 {
 next = a + b;
 printf(", %ld", next);
