@@ -8,15 +8,15 @@
 
 int main(void)
 {
-int a = 1; 
-int b = 2;
-int next;
+int long a = 1;
+int long b = 2;
+int long next;
 int count = 0;
-printf("%d, %d", a, b);
+printf("%ld, %ld", a, b);
 while (count < 96)
 {
 next = a + b;
-printf(", %d", next);
+printf(", %ld", next);
 a = b;
 b = next;
 count++;
