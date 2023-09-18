@@ -15,7 +15,7 @@ srand(time(0));
 for (i = 0; i < 11; i++)
 {
 rand_char = rand() % 62;
-if (rand_char < 26) // 0-25: A-Z
+if (rand_char < 26)
 {
 password[i] = 'A' + rand_char;
 }
