@@ -12,7 +12,7 @@ char *cap_string(char *str)
 int i;
 int j;
 char sep[] = " \t\n,;.!?\"(){}";
-if (str[0] >= 'a' && str[i] <= 'z')
+if (str[0] >= 'a' && str[0] <= 'z')
 str[0] = str[0] - ('a' - 'A');
 for ( j = 0 ; j < strlen(sep) ; j++)
 { 
