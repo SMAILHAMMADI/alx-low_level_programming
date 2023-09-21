@@ -9,14 +9,16 @@
 
 char *cap_string(char *str)
 {
+lsep = strlen(sep);
+lstr = strlen(str);
 int i;
 int j;
 char sep[] = " \t\n,;.!?\"(){}";
 if (str[0] >= 'a' && str[0] <= 'z')
 str[0] = str[0] - ('a' - 'A');
-for ( j = 0 ; j < strlen(sep) ; j++)
+for ( j = 0 ; j < lsep ; j++)
 {
-for(i = 0 ; i < strlen(str)-1 ; i++)
+for(i = 0 ; i < lstr-1 ; i++)
 {
 if ((str[i+1] >= 'a' && str[i+1] <= 'z')&&(str[i]==sep[j]))
 {
