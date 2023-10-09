@@ -7,8 +7,8 @@
  *
  * Return: Always 0.
  */
-int main(char* argv[])
+int main(int argc)
 {
-printf("%d\n", strlen(argv) - 1);
+printf("%d\n", argc - 1);
 return (0);
 }
